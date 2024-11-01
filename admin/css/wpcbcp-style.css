@@ -1,0 +1,56 @@
+/*
+Prevent the application from flicker at page load
+==============================================================================
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+.wpcbcp-form-control {
+    /*background-color: #ffffff;
+    border: 1px solid #dddddd;
+    color: #32373c;
+    outline: 0 none;
+    transition: border-color 50ms ease-in-out 0s;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 1.2;
+    padding: 10px;*/
+}
+
+.wpcbcp-form-action {    
+    /*background: #f7f7f7 none repeat scroll 0 0;
+    border-color: #cccccc;
+    box-shadow: 0 1px 0 #cccccc;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 28px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #555555;
+    vertical-align: top;
+    height: 40px;*/
+}
+
+.ng-submitted .ng-invalid,
+.ng-invalid.ng-touched {
+    border: 1px solid #ff0000;
+}
+
+.wpcbcp-error {
+    color: #ff0000;
+    line-height: 1.6em;
+    margin: 0 0 10px;
+}
